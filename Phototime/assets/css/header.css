@@ -1,0 +1,152 @@
+header {
+    background: url('../img/bg.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Nav Bar  */
+
+header #logo {
+    display: inline-block;
+}
+
+
+header nav {
+    text-align: center;
+    margin: 40px 0 247px 0;
+}
+
+header nav ul {
+    display: inline-block;
+}
+
+header nav .left {
+    margin-right: 97px;
+}
+
+header nav .right {
+    margin-left: 97px;
+}
+
+header nav .left li:first-child {
+    padding-right: 64px;
+}
+
+header nav .right li:first-child {
+    padding-left: 64px;
+}
+
+header nav .left li {
+    float: left;
+}
+
+header nav .right li {
+    float: right;
+}
+
+header nav a {
+    display: inline-block;
+    transition: .3s;
+}
+
+header nav .fx::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #19b898;
+    transition: .3s;
+}
+
+header nav a:hover::after {
+    width: 100%;
+}
+
+/* End Nav Bar  */
+
+/* Home */
+
+.home {
+    text-align: center;
+}
+
+.home h1 {
+    color: #fff;
+    font-size: 2.25em;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.home p {
+    color: #fff;
+    letter-spacing: 4px;
+    margin-bottom: 26px;
+}
+
+.btn-primary {
+    width: 166px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 21px 12px 18px 12px;
+    background-color: #16a085;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    transition: .3s;
+    margin-bottom: 222px;
+}
+
+.btn-primary:hover {
+    background-color: #148e76;
+}
+
+.social-links {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.social-links a {
+    width: 23px;
+    padding-right: 16px;
+}
+
+.fa {
+    transition: .3s;
+}
+
+.social-links a:hover .fa-twitter {
+    color: #38A1F3;
+}
+
+.social-links a:hover .fa-flickr {
+    color: #ff0084;
+}
+
+.social-links a:hover .fa-dribbble {
+    color: #ea4c89;
+}
+
+/* End Home  */
+
+
+/* Responsive - Mobile */
+
+@media (min-width: 360px) and (max-width: 767px) {
+    header nav {
+        margin-bottom: 200px;
+    }
+    
+    header nav ul {
+        display: none;
+    }
+
+    header .home h1 {
+        font-size: 1.65em;
+        margin-bottom: 25px;
+    }
+
+    header .home p {
+        margin-bottom: 30px;
+    }
+}

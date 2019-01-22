@@ -1,0 +1,17 @@
+@import url('fonts.css');
+@import url('font-awesome.css');
+@import url('bootstrap.css');
+@import url('reset.css');
+@import url('aos.css');
+
+
+/* Construct */
+@import url('styles.css');
+@import url('header.css');
+@import url('section1.css');
+@import url('section2.css');
+@import url('section3.css');
+@import url('section4.css');
+@import url('section5.css');
+@import url('footer.css');
+@import url('mobile.css');

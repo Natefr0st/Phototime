@@ -1,0 +1,61 @@
+.section4 {
+    background: url('../img/bg01.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 800px;
+    text-align: center;  
+}
+
+.section4 .col-lg-12 {
+    margin-top: 380px;
+}
+
+.section4 h2 {
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.section4 .subscribe-form {
+    position: relative;
+    display: inline-block;
+}
+
+.section4 #email {
+    text-transform: uppercase;
+    color: #000;
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 0 0 0 22px;
+}
+
+.section4 #email::after {
+    width: 60px;
+    height: 60px;
+    background-color: #16a085;
+}
+
+.section4 .fa-check {
+    color: #fff;
+}
+
+.section4 #btn-submit {
+    padding: 0;
+    background-color: #16a085;
+    width: 63px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    transition: .3s;
+    top: 0;
+    right: -20px;
+    height: 100%;
+    position: absolute;
+}
+
+.section4 #btn-submit:hover {
+    background-color: #19b898;
+}

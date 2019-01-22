@@ -1,0 +1,67 @@
+.section5 {
+    background-color: #f5f6f7;
+    min-height: 398px;
+    text-align: center;
+}
+
+.section5 h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 90px 0 17px 0;
+}
+
+.section5 p {
+    max-width: 840px;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+.section5 button {
+    color: #fff;
+    background-color: #16a085;
+    text-transform: uppercase;
+    margin-top: 47px;
+    padding: 0;
+    width: 296px;
+    height: 56px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    transition: .3s;
+}
+
+.section5 button:hover {
+    background-color: #19b898;
+}
+
+.section5 .ios {
+    margin-right: 25px;
+}
+
+.section5 .fa-apple, .fa-android {
+    color: #fff;
+    padding-left: 20px;
+}
+
+/* Responsive - Mobile */
+
+@media (min-width: 360px) and (max-width: 767px) {
+    .section5 h3 {
+        margin: 50px 0 20px 0;
+    }
+
+    .section5 p {
+        padding: 0 20px;
+    }
+
+    .section5 .ios {
+        margin-right: 0;
+    }
+
+    .section5 .android {
+        margin: 20px 0;
+    }
+}

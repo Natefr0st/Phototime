@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6, p, a, button, input {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a, 
+a:hover, 
+a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Clear Fix */
+
+.clf:after {
+    content: '';
+    clear: both;
+    display: block;
+}
